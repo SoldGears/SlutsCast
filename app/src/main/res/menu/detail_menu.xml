@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="Cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="Favorite"
+        tools:icon="@drawable/selector_favorite"
+        app:showAsAction="always"
+        />
+
+</menu>

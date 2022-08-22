@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loaderFragment">
+
+    <fragment
+        android:id="@+id/loaderFragment"
+        android:name="cast.slutscast.fragments.LoaderFragment"
+        android:label="fragment_loader"
+        tools:layout="@layout/fragment_loader" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="cast.slutscast.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

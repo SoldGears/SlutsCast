@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Media Options">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="autoplay_switch"
+            android:title="Auto Play" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

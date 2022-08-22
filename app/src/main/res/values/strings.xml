@@ -1,0 +1,11 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SlutsCast</string>
+
+    <string name="exo_track_resolution_pixel"><xliff:g example="768" id="height">%1$dp</xliff:g></string>
+    <string name="qualitySelector">Select Quality</string>
+
+    <string name="searchable_hint">Suche…</string>
+
+    <string name="autoplay_switch" />
+
+</resources>
